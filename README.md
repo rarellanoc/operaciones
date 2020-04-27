@@ -303,7 +303,7 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Imágen
 
-<img src="./img/imagen_01.png" >
+<img src="./img/image_01.png" >
 
 <img src="./img/imagen_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
