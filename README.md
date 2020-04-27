@@ -21,12 +21,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Formas básicas
 
+[[./img/formas_basicas_02.png |width=200px]]
+
 
 ![formas basicas](./img/formas_basicas_01.png)
 
-![caption](./img/formas_basicas_02.png | width=250)
-![caption](./img/formas_basicas_03.png | width=250)
-![caption](./img/formas_basicas_04.png | width=250)
+[[./img/formas_basicas_02.png | width=200px]]
+[[./img/formas_basicas_03.png | width=200px]]
+[[./img/formas_basicas_04.png | width=200px]]
 
 
     int  center_x = width/2; int  center_y = height/2;
@@ -77,9 +79,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![formas basicas](./img/grillas_01.png)
 
-![caption](./img/grillas_02.png | width=250)
-![caption](./img/grillas_03.png | width=250)
-![caption](./img/grillas_04.png | width=250)
+[[./img/grillas_02.png | width=200px]]
+[[./img/grillas_03.png | width=200px]]
+[[./img/grillas_04.png | width=200px]]
 
 
     int real_cant = 8;
@@ -98,9 +100,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![repetición](./img/repeticion_01.png)
 
-![caption](./img/repeticion_02.png | width=250)
-![caption](./img/repeticion_03.png | width=250)
-![caption](./img/repeticion_04.png | width=250)
+[[./img/repeticion_02.png | width=200px]]
+[[./img/repeticion_03.png | width=200px]]
+[[./img/repeticion_04.png | width=200px]]
 
     int end_line = 800;
     int dist_observador_del_plano = 282;
@@ -137,9 +139,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![isométrico](./img/iso_01.png)
 
-![caption](./img/iso_02.png | width=250)
-![caption](./img/iso_03.png | width=250)
-![caption](./img/iso_04.png | width=250)
+[[./img/iso_02.png | width=200px]]
+[[./img/iso_03.png | width=200px]]
+[[./img/iso_04.png | width=200px]]
 
     int nx = 100;
     int ny = 100;
@@ -166,9 +168,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![árbol en base a recursion](./img/recursion_01.png)
 
-![caption](./img/recursion_02.png | width=250)
-![caption](./img/recursion_03.png | width=250)
-![caption](./img/recursion_04.png | width=250)
+[[./img/recursion_02.png | width=200px]]
+[[./img/recursion_03.png | width=200px]]
+[[./img/recursion_04.png | width=200px]]
 
     int tPunto =11;
     float direccionC ;
@@ -209,9 +211,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![trazado](./img/trazado_01.png)
 
-![caption](./img/trazado_02.png | width=250)
-![caption](./img/trazado_03.png | width=250)
-![caption](./img/trazado_04.png | width=250)
+[[./img/trazado_02.png | width=200px]]
+[[./img/trazado_03.png | width=200px]]
+[[./img/trazado_04.png | width=200px]]
 
     int num = 0;
     int dir = 2;
@@ -285,9 +287,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![cambio en los pixeles](./img/image_01.png)
 
-![caption](./img/imagen_02.png | width=250)
-![caption](./img/imagen_03.png | width=250)
-![caption](./img/imagen_04.png | width=250)
+[[./img/imagen_02.png | width=200px]]
+[[./img/imagen_03.png | width=200px]]
+[[./img/imagen_04.png | width=200px]]
 
     PImage img;
     img = loadImage("image.jpg");
@@ -321,9 +323,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![ciclo](./img/loop_01.png)
 
-![caption](./img/loop_02.png | width=250)
-![caption](./img/loop_03.png | width=250)
-![caption](./img/loop_04.png | width=250)
+[[./img/loop_02.png | width=200px]]
+[[./img/loop_03.png | width=200px]]
+[[./img/loop_04.png | width=200px]]
 
     float n = 0;
     float aumento = 0.1;
@@ -364,9 +366,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 ![dirección diagonal](./img/seguir_direccion_01.png)
 
-![caption](./img/seguir_direccion_02.png | width=250)
-![caption](./img/seguir_direccion_03.png | width=250)
-![caption](./img/seguir_direccion_04.png | width=250)
+[[./img/seguir_direccion_02.png | width=200px]]
+[[./img/seguir_direccion_03.png | width=200px]]
+[[./img/seguir_direccion_04.png | width=200px]]
 
     float x = 2.0;
     float y = 120.0;
