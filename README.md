@@ -26,11 +26,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/formas_basicas_01.png" >
 
 
-<img src="./img/formas_basicas_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/formas_basicas_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
  
-<img src="./img/formas_basicas_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/formas_basicas_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/formas_basicas_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/formas_basicas_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
 
@@ -82,11 +82,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/grillas_01.png" >
 
-<img src="./img/grillas_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/grillas_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/grillas_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/grillas_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/grillas_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/grillas_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
 
@@ -106,11 +106,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/repeticion_01.png" >
 
-<img src="./img/repeticion_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/repeticion_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/repeticion_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/repeticion_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/repeticion_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/repeticion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     int end_line = 800;
@@ -148,11 +148,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/iso_01.png" >
 
-<img src="./img/iso_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/iso_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/iso_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/iso_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/iso_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/iso_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     int nx = 100;
@@ -180,11 +180,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/recursion_01.png" >
 
-<img src="./img/recursion_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/recursion_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/recursion_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/recursion_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/recursion_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/recursion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     int tPunto =11;
@@ -226,11 +226,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/trazado_01.png" >
 
-<img src="./img/trazado_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/trazado_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/trazado_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/trazado_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/trazado_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/trazado_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     int num = 0;
@@ -305,11 +305,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/imagen_01.png" >
 
-<img src="./img/imagen_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/imagen_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/imagen_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/imagen_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/imagen_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/imagen_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     PImage img;
@@ -344,11 +344,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/loop_01.png" >
 
-<img src="./img/loop_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/loop_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/loop_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/loop_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/loop_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/loop_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     float n = 0;
@@ -390,11 +390,11 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/seguir_direccion_01.png" >
 
-<img src="./img/seguir_direccion_02.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/seguir_direccion_02.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/seguir_direccion_03.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/seguir_direccion_03.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
-<img src="./img/seguir_direccion_04.png" width="200px" style="float:left;display: block; margin: 5px auto">
+<img src="./img/seguir_direccion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
     float x = 2.0;
