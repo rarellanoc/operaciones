@@ -22,11 +22,16 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 # Formas básicas
 
 
-![formas basicas](./img/formas_basicas_01.png)
 
-![caption](./img/formas_basicas_02.png){ width=200px }
-![caption](./img/formas_basicas_03.png){ width=200px }
-![caption](./img/formas_basicas_04.png){ width=200px }
+<img src="./img/formas_basicas_01.png" >
+
+
+<img src="./img/formas_basicas_02.png width="200px">
+
+<img src="./img/formas_basicas_03.png width="200px">
+
+<img src="./img/formas_basicas_04.png width="200px">
+
 
 
     int  center_x = width/2; int  center_y = height/2;
@@ -75,11 +80,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 # Grillas
 
 
-![formas basicas](./img/grillas_01.png)
+<img src="./img/grillas_01.png" >
 
-![caption](./img/grillas_02.png){ width=200px }
-![caption](./img/grillas_03.png){ width=200px }
-![caption](./img/grillas_04.png){ width=200px }
+<img src="./img/grillas_02.png width="200px">
+
+<img src="./img/grillas_03.png width="200px">
+
+<img src="./img/grillas_04.png width="200px">
+
 
 
     int real_cant = 8;
@@ -96,11 +104,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Repetición
 
-![repetición](./img/repeticion_01.png)
+<img src="./img/repeticion_01.png" >
 
-![caption](./img/repeticion_02.png){ width=200px }
-![caption](./img/repeticion_03.png){ width=200px }
-![caption](./img/repeticion_04.png){ width=200px }
+<img src="./img/repeticion_02.png width="200px">
+
+<img src="./img/repeticion_03.png width="200px">
+
+<img src="./img/repeticion_04.png width="200px">
+
 
     int end_line = 800;
     int dist_observador_del_plano = 282;
@@ -135,11 +146,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Isométrico
 
-![isométrico](./img/iso_01.png)
+<img src="./img/iso_01.png" >
 
-![caption](./img/iso_02.png){ width=200px }
-![caption](./img/iso_03.png){ width=200px }
-![caption](./img/iso_04.png){ width=200px }
+<img src="./img/iso_02.png width="200px">
+
+<img src="./img/iso_03.png width="200px">
+
+<img src="./img/iso_04.png width="200px">
+
 
     int nx = 100;
     int ny = 100;
@@ -164,11 +178,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Recursivo
 
-![árbol en base a recursion](./img/recursion_01.png)
+<img src="./img/recursion_01.png" >
 
-![caption](./img/recursion_02.png){ width=200px }
-![caption](./img/recursion_03.png){ width=200px }
-![caption](./img/recursion_04.png){ width=200px }
+<img src="./img/recursion_02.png width="200px">
+
+<img src="./img/recursion_03.png width="200px">
+
+<img src="./img/recursion_04.png width="200px">
+
 
     int tPunto =11;
     float direccionC ;
@@ -207,11 +224,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Trazado
 
-![trazado](./img/trazado_01.png)
+<img src="./img/trazado_01.png" >
 
-![caption](./img/trazado_02.png){ width=200px }
-![caption](./img/trazado_03.png){ width=200px }
-![caption](./img/trazado_04.png){ width=200px }
+<img src="./img/trazado_02.png width="200px">
+
+<img src="./img/trazado_03.png width="200px">
+
+<img src="./img/trazado_04.png width="200px">
+
 
     int num = 0;
     int dir = 2;
@@ -283,11 +303,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Imágen
 
-![cambio en los pixeles](./img/image_01.png)
+<img src="./img/imagen_01.png" >
 
-![caption](./img/imagen_02.png){ width=200px }
-![caption](./img/imagen_03.png){ width=200px }
-![caption](./img/imagen_04.png){ width=200px }
+<img src="./img/imagen_02.png width="200px">
+
+<img src="./img/imagen_03.png width="200px">
+
+<img src="./img/imagen_04.png width="200px">
+
 
     PImage img;
     img = loadImage("image.jpg");
@@ -319,11 +342,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Ciclo
 
-![ciclo](./img/loop_01.png)
+<img src="./img/loop_01.png" >
 
-![caption](./img/loop_02.png){ width=200px }
-![caption](./img/loop_03.png){ width=200px }
-![caption](./img/loop_04.png){ width=200px }
+<img src="./img/loop_02.png width="200px">
+
+<img src="./img/loop_03.png width="200px">
+
+<img src="./img/loop_04.png width="200px">
+
 
     float n = 0;
     float aumento = 0.1;
@@ -362,11 +388,14 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Seguir dirección 
 
-![dirección diagonal](./img/seguir_direccion_01.png)
+<img src="./img/seguir_direccion_01.png" >
 
-![caption](./img/seguir_direccion_02.png){ width=200px }
-![caption](./img/seguir_direccion_03.png){ width=200px }
-![caption](./img/seguir_direccion_04.png){ width=200px }
+<img src="./img/seguir_direccion_02.png width="200px">
+
+<img src="./img/seguir_direccion_03.png width="200px">
+
+<img src="./img/seguir_direccion_04.png width="200px">
+
 
     float x = 2.0;
     float y = 120.0;
@@ -388,7 +417,7 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 # Fuentes
 
-![fuente](./img/fonts_01.png)
+<img src="./img/fonts_01.png" >
 
 
     PFont font;
