@@ -30,7 +30,7 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/formas_basicas_03.png" width="150px" align='center'>
 
-<img src="./img/formas_basicas_04.png" width="150px" align='right'>
+<img src="./img/formas_basicas_04.png" width="150px" align='center'>
 
 
 
