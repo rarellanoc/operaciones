@@ -34,44 +34,59 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 
 
-    int  center_x = width/2; int  center_y = height/2;
-    int  size = 200;
+  void setup() {
+    size(800,800);
+    background(22);
+    fill(22);
+    strokeWeight(5);
+    stroke(255,0,0);
+    
+
+    int  center_x = width/2; 
+    int  center_y = height/2;
+    int  size = 100;
 
     ellipseMode(CENTER);
     ellipse(center_x, center_y, size,size);
-    line(center_x - size/2, center_y, center_x + size/2, center_y); rectMode(CENTER);
+    line(center_x - size/2, center_y, center_x + size/2, center_y); 
+    rectMode(CENTER);
     rect(center_x,center_y, size * 2,size * 2 );
 
 
     //OOP
 
-    Same cuadrado = new Same(center_x, center_y, size * 4, "quad"); Same circulo = new Same(center_x, center_y, size, "circle");
+    Same cuadrado = new Same(center_x, center_y, size * 4, "quad"); 
+    Same circulo = new Same(center_x, center_y, size, "circle");
 
     Same linea= new Same(center_x, center_y, size * 4, "linea_horizontal");
-    cuadrado.display(); circulo.display(); linea.display();
+    cuadrado.display(); 
+    circulo.display(); 
+    linea.display();
     }
 
+
+
     class Same {
-        int x;
-        int y;
-        int siz; String tipo;
+      int x;
+      int y;
+      int siz; String tipo;
 
-        Same(int x_, int y_, int size, String type) {
-        x = x_;
-        y = y_;
-        siz = size; tipo = type;
+    Same(int x_, int y_, int size, String type) {
+    x = x_;
+    y = y_;
+    siz = size; tipo = type;
+    }
+
+    void display() {
+        if (tipo== "quad") {
+        rectMode(CENTER); rect(x,y, siz,siz);
+        } else if (tipo == "circle") {
+        ellipseMode(CENTER); ellipse(x, y, siz,siz);
+        } else if (tipo == "linea_horizontal") { line(x - siz/2, y, x + siz/2, y);
+        } else {
+        strokeWeight(3); point(x,y);
         }
-
-        void display() {
-            if (tipo== "quad") {
-            rectMode(CENTER); rect(x,y, siz,siz);
-            } else if (tipo == "circle") {
-            ellipseMode(CENTER); ellipse(x, y, siz,siz);
-            } else if (tipo == "linea_horizontal") { line(x - siz/2, y, x + siz/2, y);
-            } else {
-            strokeWeight(3); point(x,y);
-            }
-            } }
+        } }
 
 
 
@@ -90,6 +105,17 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 
 
+    int s, sep;
+
+    void setup() {
+      
+      
+      size(800,800);
+      background(22);
+      fill(22);
+      strokeWeight(5);
+      stroke(255,0,0);
+      
     int real_cant = 8;
     int cant = real_cant /2;
     s = 30;
@@ -101,6 +127,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
          rect(width/2 - sep - i * (sep * (sep/s)), height/2 - sep - j * (sep * (sep/s)), s,s);
          rect(width/2 + sep + i * (sep * (sep/s)), height/2 - sep - j * (sep * (sep/s)), s,s);
     } }
+      
+      
+    }
 
 # Repetición
 
@@ -113,6 +142,17 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/repeticion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
+
+
+    void setup() {
+      
+      
+        size(800,800);
+      background(22);
+      fill(22);
+      strokeWeight(5);
+      stroke(255,0,0);
+      
     int end_line = 800;
     int dist_observador_del_plano = 282;
     int obsx = end_line + dist_observador_del_plano;
@@ -143,6 +183,9 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
         //println(op_small);
         line(0,baseline_y + altura - op_small,width,  baseline_y + altura - op_small);
     } }
+  
+  
+
 
 # Isométrico
 
@@ -155,7 +198,17 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/iso_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
-    int nx = 100;
+    void setup() {
+      
+      
+      size(800,800);
+      background(22);
+      fill(22);
+      strokeWeight(5);
+      stroke(255,0,0);
+      
+      
+      int nx = 100;
     int ny = 100;
     int z = 50;
     int posx =width/2 - nx/2;
@@ -176,6 +229,8 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
     line(posx, posy, posx, posy+z);
     line(-x2+posx,x+posy, -x2+posx,x+posy+z);
 
+    }
+
 # Recursivo
 
 <img src="./img/recursion_01.png" >
@@ -187,15 +242,30 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/recursion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
+    float direccionC;
+    float direccionP;
+    
+    void setup() {
+    
+    
+      size(800,800);
+    background(22);
+    fill(22);
+    strokeWeight(5);
+    stroke(255,0,0);
+   
     int tPunto =11;
     float direccionC ;
     float direccionP;
     int snap ;
-    direccionC = 0.004;
-    direccionP = radians(30);
+    direccionC = 0.009;
+    direccionP = radians(70);
     snap = 0;
-    semilla(tPunto,250, width/2, height);
-   
+    semilla(tPunto,300, width/2, height);
+  }
+  
+  
+  
     void semilla(float tPunto, float angulo, float x, float y) {
     if (tPunto > 0.5) {
        float r = random(1.0);
@@ -312,8 +382,16 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/imagen_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
 
-    PImage img;
-    img = loadImage("image.jpg");
+    
+      PImage img;
+      
+     void setup() {
+  
+  //idealmente el mismo tamaño de la imagen
+    size(1024,1024);
+ 
+
+    img = loadImage("your_image.jpg");
     int x=0;
     int y=0;
     int scale = 8;
@@ -325,8 +403,8 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
     float r = red(img.pixels[loc]);
     float g = green(img.pixels[loc]);
     float b = blue(img.pixels[loc]);
-    // fill(r g,b);
-    //stroke(r,g,b);
+    fill(r, g,b);
+    stroke(r,g,b);
      beginShape();
       vertex(x,y);
       vertex(2*scale+x,y);
@@ -396,6 +474,16 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 
 <img src="./img/seguir_direccion_04.png" width="200px" style="text-align:left;display: block; margin: 5px auto">
 
+    void setup() {
+    
+    
+    size(800,800);
+    background(22);
+    fill(22);
+    strokeWeight(5);
+    stroke(255,0,0);
+    
+  
 
     float x = 2.0;
     float y = 120.0;
@@ -420,14 +508,27 @@ Este catálogo pretende recopilar código útil para enseñanza y dirección de 
 <img src="./img/fonts_01.png" >
 
 
-    PFont font;
-    font = loadFont("URWBookmanL-DemiBold-48.vlw");
+      PFont font;
+   
+     void setup() {
+    
+    
+      size(800,800);
+    background(22);
+    fill(255,0,0);
+    strokeWeight(6);
+    stroke(255,0,0);
+  
+
+    font = loadFont("ArialMT-48.vlw");
     //String[] fontList = PFont.list();
     //println(fontList);
     textFont(font, 64);
     text("choice", 100, 150);
     textFont(font,32);
     text("life is", 110, 200);
+    
+   }
 
 
 
