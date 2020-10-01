@@ -1,4 +1,4 @@
-void steup() {
+void setup() {
   
   
 background(22);
